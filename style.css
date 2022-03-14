@@ -1,15 +1,23 @@
  h1{
-     color:rgb(127, 255, 153);
+     color:#7fff99;
  }
 
 
- *{
-     border: solid;
+ 
+
+ body{
+     background-color:#000000;
+     color:#ffffff ;
+     text-decoration-line:underline ;
+     font-size: 25px ;
+
  }
  
  .Cabeçalho{
-     background-color: darkturquoise;
+     background-color:#00ced1;
      display: flex;
+     border-left-style: double ;
+     color: blue;
  }
  .grade{
     display: flex;
