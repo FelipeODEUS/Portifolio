@@ -1,16 +1,14 @@
  h1{
      color:#7fff99;
+     padding: 30px;
+     margin-left: 30px;
  }
-
-
- 
 
  body{
      background-color:#000000;
-     color:#ffffff ;
+     color: #0000ff; ;
      text-decoration-line:underline ;
      font-size: 25px ;
-
  }
  
  .Cabeçalho{
@@ -18,12 +16,19 @@
      display: flex;
      border-left-style: double ;
      color: blue;
+     justify-content: space-between;
  }
+
+ .Cabeçalho * {
+     border: solid;
+ }
+
  .grade{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
  }
+
  .Rodapé{
      background-color: darkred ;
      display: flex;
@@ -31,6 +36,32 @@
      justify-content:flex-end;
  }
             
-                
+a:link{
+    color: red;
+}                
             
-       
+a:visited{
+    color: black;
+}       
+
+.Menu a{
+    margin-left: 20px;
+}
+
+.Jorge{
+    position: relative;
+}
+.Jorge p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.Jorge:hover p{
+    opacity: 1;
+}
+
+.Jorge:hover img{
+    opacity: 0.33;
+}
